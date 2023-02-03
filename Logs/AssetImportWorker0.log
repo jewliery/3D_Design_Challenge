@@ -1071,3 +1071,36 @@ Received Import Request.
   path: Assets/01_AssetStore/DoorPackFree/Meshes/Video intercom/Textures/V1/Aferar_01 - Default_AO.png
   artifactKey: Guid(7ee583edf3c5c8f4cbe8ec132bb8730c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/01_AssetStore/DoorPackFree/Meshes/Video intercom/Textures/V1/Aferar_01 - Default_AO.png using Guid(7ee583edf3c5c8f4cbe8ec132bb8730c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80a67aeceb631136e24f8858b9d2daad') in 0.015729 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7953.431614 seconds.
+  path: Assets/01_AssetStore/DoorPackFree/Meshes/Door001/Materials/V1.mat
+  artifactKey: Guid(6ab145d3c4567994b8cdd5490fcde60f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01_AssetStore/DoorPackFree/Meshes/Door001/Materials/V1.mat using Guid(6ab145d3c4567994b8cdd5490fcde60f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a940a9793cf0379bba4f39669c53d745') in 0.711775 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/01_AssetStore/DoorPackFree/Meshes/Door001/Materials/V7.mat
+  artifactKey: Guid(29e53d3235d8ede4aa7ba3bfd40de7f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01_AssetStore/DoorPackFree/Meshes/Door001/Materials/V7.mat using Guid(29e53d3235d8ede4aa7ba3bfd40de7f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e0bfb54f9a90283e8a1a1ff1d52ba92') in 0.022367 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000110 seconds.
+  path: Assets/01_AssetStore/DoorPackFree/Meshes/Door001/Materials/V6.mat
+  artifactKey: Guid(0b7dd8513656d9c4fa0cbe919fb9fa8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01_AssetStore/DoorPackFree/Meshes/Door001/Materials/V6.mat using Guid(0b7dd8513656d9c4fa0cbe919fb9fa8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '884871531708393cf2731ec9fe484429') in 0.018507 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Assets/01_AssetStore/DoorPackFree/Meshes/Door001/Materials/V5.mat
+  artifactKey: Guid(ff33776f394eae0438185b88600e3a2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01_AssetStore/DoorPackFree/Meshes/Door001/Materials/V5.mat using Guid(ff33776f394eae0438185b88600e3a2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9263309285ce43643f380161d961ae5f') in 0.012317 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: Assets/01_AssetStore/DoorPackFree/Meshes/Door001/Materials/V4.mat
+  artifactKey: Guid(c2d8aea817ff67d4292424d139872f20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01_AssetStore/DoorPackFree/Meshes/Door001/Materials/V4.mat using Guid(c2d8aea817ff67d4292424d139872f20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8c9caccb98668fff630c270dfe2740f') in 0.014319 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
