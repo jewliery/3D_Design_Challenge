@@ -1,0 +1,1073 @@
+Unity Editor version:    2021.3.11f1 (0a5ca18544bf)
+Branch:                  2021.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 12.5.1 (Build 21G83)
+Darwin version:          21.6.0
+Architecture:            x86_64
+Running under Rosetta:   NO
+Available memory:        16384 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Users/juliennebuechele/Documents/Unity Projekte/2021.3.11f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/juliennebuechele/UnityProjects/FinalExercise
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+56443
+Successfully changed project path to: /Users/juliennebuechele/UnityProjects/FinalExercise
+/Users/juliennebuechele/UnityProjects/FinalExercise
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 153.23 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.11f1 (0a5ca18544bf)
+[Subsystems] Discovering subsystems at path /Users/juliennebuechele/Documents/Unity Projekte/2021.3.11f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/juliennebuechele/UnityProjects/FinalExercise/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Color LCD preferred device: Intel(R) UHD Graphics 630 (low power)
+Metal devices available: 2
+0: AMD Radeon Pro 555X (high power)
+1: Intel(R) UHD Graphics 630 (low power)
+Using device AMD Radeon Pro 555X (high power)
+Initializing Metal device caps: AMD Radeon Pro 555X
+Initialize mono
+Mono path[0] = '/Users/juliennebuechele/Documents/Unity Projekte/2021.3.11f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Users/juliennebuechele/Documents/Unity Projekte/2021.3.11f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Users/juliennebuechele/Documents/Unity Projekte/2021.3.11f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56553
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Users/juliennebuechele/Documents/Unity Projekte/2021.3.11f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.002996 seconds.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 134.59 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.208 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1208ms)
+		BeginReloadAssembly (175ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (838ms)
+			LoadAssemblies (175ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (211ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (53ms)
+			SetupLoadedEditorAssemblies (490ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (135ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (265ms)
+				ProcessInitializeOnLoadMethodAttributes (77ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.016585 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/juliennebuechele/UnityProjects/FinalExercise/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/juliennebuechele/UnityProjects/FinalExercise/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.81 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.009 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2010ms)
+		BeginReloadAssembly (180ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (46ms)
+		EndReloadAssembly (1616ms)
+			LoadAssemblies (171ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (539ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (102ms)
+			SetupLoadedEditorAssemblies (719ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (133ms)
+				ProcessInitializeOnLoadAttributes (495ms)
+				ProcessInitializeOnLoadMethodAttributes (81ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Users/juliennebuechele/Documents/Unity Projekte/2021.3.11f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.10 seconds
+Refreshing native plugins compatible for Editor in 1.00 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3796 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 30 unused Assets / (161.1 KB). Loaded Objects now: 4256.
+Memory consumption went from 257.3 MB to 257.2 MB.
+Total: 5.011577 ms (FindLiveObjects: 0.383719 ms CreateObjectMapping: 0.357867 ms MarkObjects: 3.977120 ms  DeleteObjects: 0.291616 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 795363.103120 seconds.
+  path: Assets/01_AssetStore/DoorPackFree/Meshes/Video intercom/Textures/V2/Aferar_01 - Default_SpecularSmoothness.png
+  artifactKey: Guid(b5068666fca838c42a2363d5e66e7f83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01_AssetStore/DoorPackFree/Meshes/Video intercom/Textures/V2/Aferar_01 - Default_SpecularSmoothness.png using Guid(b5068666fca838c42a2363d5e66e7f83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa3f19777eeb056ea3b68375a5480de5') in 1.060995 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007575 seconds.
+  path: Assets/01_AssetStore/DoorPackFree/Meshes/Door001/Materials/V5.mat
+  artifactKey: Guid(ff33776f394eae0438185b88600e3a2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01_AssetStore/DoorPackFree/Meshes/Door001/Materials/V5.mat using Guid(ff33776f394eae0438185b88600e3a2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eecab1210afcf8fb8a6eb042db57b069') in 1.244183 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000766 seconds.
+  path: Assets/01_AssetStore/DoorPackFree/Meshes/Door001/Materials/V6.mat
+  artifactKey: Guid(0b7dd8513656d9c4fa0cbe919fb9fa8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01_AssetStore/DoorPackFree/Meshes/Door001/Materials/V6.mat using Guid(0b7dd8513656d9c4fa0cbe919fb9fa8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b96885ef51f37dce15337014271fff42') in 0.057725 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001978 seconds.
+  path: Assets/01_AssetStore/DoorPackFree/Meshes
+  artifactKey: Guid(9e991436548381243bad3f469c0ac4ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01_AssetStore/DoorPackFree/Meshes using Guid(9e991436548381243bad3f469c0ac4ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c34948d6de72a4c41c438fe2cf1532cc') in 0.001163 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000104 seconds.
+  path: Assets/modern office extras/texture/WoodPlanksOld 1.png
+  artifactKey: Guid(d7f27c10567512149baf42a5db64cb2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/modern office extras/texture/WoodPlanksOld 1.png using Guid(d7f27c10567512149baf42a5db64cb2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '258f72f2ae94c206a70557b4129e6173') in 0.014115 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000645 seconds.
+  path: Assets/modern office extras/texture/ModenFabric.png
+  artifactKey: Guid(0bb54b5320a080144b0d1733e901fd37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/modern office extras/texture/ModenFabric.png using Guid(0bb54b5320a080144b0d1733e901fd37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6ece75b43e43f457a23c9a701dc487a') in 0.016415 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/01_AssetStore/DoorPackFree/Meshes/Video intercom/Materials
+  artifactKey: Guid(82b494519bd887046825dae2a31c8e09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01_AssetStore/DoorPackFree/Meshes/Video intercom/Materials using Guid(82b494519bd887046825dae2a31c8e09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d48bf1e448f2ca16baaea8e4525eb15') in 0.001267 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/modern office extras/mesh
+  artifactKey: Guid(3abe514f8d42ffa42917c94e7d34f679) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/modern office extras/mesh using Guid(3abe514f8d42ffa42917c94e7d34f679) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76d214d95bb66d3d44228fb4d64fc453') in 0.001370 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000113 seconds.
+  path: Assets/modern office extras/mesh/Sucklent small .prefab
+  artifactKey: Guid(f5b17cb8a030a0842a64979807a33abd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/modern office extras/mesh/Sucklent small .prefab using Guid(f5b17cb8a030a0842a64979807a33abd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3a1d358302c72bf055eaf58c9de3112') in 0.171833 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002426 seconds.
+  path: Assets/01_AssetStore/DoorPackFree/Meshes/Door001/V6/Aferar_13 - Default_SpecularSmoothness.png
+  artifactKey: Guid(e2d2f6fd919564b42bdfb8258f8f800d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01_AssetStore/DoorPackFree/Meshes/Door001/V6/Aferar_13 - Default_SpecularSmoothness.png using Guid(e2d2f6fd919564b42bdfb8258f8f800d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91d68d1c2fb6c31475ffb39696c4275d') in 0.020273 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/01_AssetStore/DoorPackFree/Meshes/Door001/V5
+  artifactKey: Guid(ed60cf72e851d814a8862546a1236435) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01_AssetStore/DoorPackFree/Meshes/Door001/V5 using Guid(ed60cf72e851d814a8862546a1236435) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce4c3e8f4d89515b7b1bb0f10b913dfa') in 0.000884 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000767 seconds.
+  path: Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt
+  artifactKey: Guid(fade42e8bc714b018fac513c043d323b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt using Guid(fade42e8bc714b018fac513c043d323b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7f67ab3dc26da4e8ae25e3f4e491d00') in 1.855305 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/TextMesh Pro/Fonts
+  artifactKey: Guid(6ab70aee4d56447429c680537fbf93ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Fonts using Guid(6ab70aee4d56447429c680537fbf93ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c35bbd85dc86dd2ef332d439fd9c360') in 0.001140 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000913 seconds.
+  path: Assets/01_AssetStore/DoorPackFree/Meshes/Door001/V6
+  artifactKey: Guid(99065380913b13945af2a0c73dc19fb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01_AssetStore/DoorPackFree/Meshes/Door001/V6 using Guid(99065380913b13945af2a0c73dc19fb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef1b44895e01285892956ed90ed14095') in 0.000773 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000109 seconds.
+  path: Assets/01_AssetStore/DoorPackFree/Meshes/Video intercom/Textures/V1/Aferar_01 - Default_AlbedoTransparency.png
+  artifactKey: Guid(42c96235f6565cf44abc098d6d3baf75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01_AssetStore/DoorPackFree/Meshes/Video intercom/Textures/V1/Aferar_01 - Default_AlbedoTransparency.png using Guid(42c96235f6565cf44abc098d6d3baf75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7418960393963c7bb1b6e2949a259781') in 0.016506 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/TextMesh Pro
+  artifactKey: Guid(f54d1bd14bd3ca042bd867b519fee8cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro using Guid(f54d1bd14bd3ca042bd867b519fee8cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5648c5ef36b7beab651a001a8d08867') in 0.001001 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/modern office extras/texture/aluminium.png
+  artifactKey: Guid(c0eb47c3cf4cd7841bbcd15bca3b5b90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/modern office extras/texture/aluminium.png using Guid(c0eb47c3cf4cd7841bbcd15bca3b5b90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9495363e211bedd8de465b5ebcda2cd9') in 0.011956 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/modern office extras/mesh/terracotta pot  medum .prefab
+  artifactKey: Guid(0827d4ad9e7652446b2eaf7078d1b51e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/modern office extras/mesh/terracotta pot  medum .prefab using Guid(0827d4ad9e7652446b2eaf7078d1b51e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f87d35b3ac7df7ade02f1f134fea202a') in 0.012486 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/modern office extras/mesh/wall small .004.prefab
+  artifactKey: Guid(ee4c1542d744d8d4f9e0b5627bcb797e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/modern office extras/mesh/wall small .004.prefab using Guid(ee4c1542d744d8d4f9e0b5627bcb797e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc9a0e0dc34de900e5117d41bbc8fa31') in 0.011704 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.006949 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader
+  artifactKey: Guid(48bb5f55d8670e349b6e614913f9d910) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader using Guid(48bb5f55d8670e349b6e614913f9d910) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65954fb9a05ca74459e148db563b541c') in 0.120910 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Assets/modern office extras/mesh/succulent.prefab
+  artifactKey: Guid(e9ebce8f5374e14438d6a0635dfb92b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/modern office extras/mesh/succulent.prefab using Guid(e9ebce8f5374e14438d6a0635dfb92b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ba1f4194618bb829fb69af84ffe9946') in 0.012846 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001088 seconds.
+  path: Assets/01_AssetStore/DoorPackFree/Meshes/Video intercom/Textures/V1
+  artifactKey: Guid(765b18ffc9d404047bbdb0b8f9fc003b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01_AssetStore/DoorPackFree/Meshes/Video intercom/Textures/V1 using Guid(765b18ffc9d404047bbdb0b8f9fc003b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e7cdc5cebbebe0e0a8d0e0244e634ce') in 0.000895 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004051 seconds.
+  path: Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset
+  artifactKey: Guid(f952c082cb03451daed3ee968ac6c63e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset using Guid(f952c082cb03451daed3ee968ac6c63e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c72200549b97ff12ff44a36c3fabf96c') in 0.114415 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003322 seconds.
+  path: Assets/Plugins/crosstales/3D Skybox/Swiss Freebies/README.txt
+  artifactKey: Guid(24edb8f9009adc94eb039c85f88dc965) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/crosstales/3D Skybox/Swiss Freebies/README.txt using Guid(24edb8f9009adc94eb039c85f88dc965) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0c5684d43e5b0d400ecd06f602e1c19') in 0.002713 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001025 seconds.
+  path: Assets/01_AssetStore/DoorPackFree/Meshes/Door001/Materials/V7.mat
+  artifactKey: Guid(29e53d3235d8ede4aa7ba3bfd40de7f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01_AssetStore/DoorPackFree/Meshes/Door001/Materials/V7.mat using Guid(29e53d3235d8ede4aa7ba3bfd40de7f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c138cba191cfce6da502e29712ff622c') in 0.049051 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000109 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(6ea315d0fd7389c41b19996891e99ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(6ea315d0fd7389c41b19996891e99ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8193726cff86800c54781cdc6d54904') in 0.001148 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002892 seconds.
+  path: Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset
+  artifactKey: Guid(c41005c129ba4d66911b75229fd70b45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset using Guid(c41005c129ba4d66911b75229fd70b45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3950451084668360d05945240589cf11') in 0.008779 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005091 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_Sprite.shader
+  artifactKey: Guid(cf81c85f95fe47e1a27f6ae460cf182c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Shaders/TMP_Sprite.shader using Guid(cf81c85f95fe47e1a27f6ae460cf182c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6aec22998d3429237dcdf88314106b34') in 0.001927 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000101 seconds.
+  path: Assets/01_AssetStore/DoorPackFree/Meshes/Video intercom/Textures/V1/Aferar_01 - Default_SpecularSmoothness.png
+  artifactKey: Guid(6a642236548117b4ebe108d79a2e96af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01_AssetStore/DoorPackFree/Meshes/Video intercom/Textures/V1/Aferar_01 - Default_SpecularSmoothness.png using Guid(6a642236548117b4ebe108d79a2e96af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41af2b0a66b1e51bc34f438a4a5a669c') in 0.020564 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005627 seconds.
+  path: Assets/TextMesh Pro/Resources/Sprite Assets
+  artifactKey: Guid(512a49d95c0c4332bdd98131869c23c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Sprite Assets using Guid(512a49d95c0c4332bdd98131869c23c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dcb9dc3060b39f33c350934f5d461fd') in 0.000809 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000118 seconds.
+  path: Assets/01_AssetStore/DoorPackFree/Meshes/Door001/Materials/V4.mat
+  artifactKey: Guid(c2d8aea817ff67d4292424d139872f20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01_AssetStore/DoorPackFree/Meshes/Door001/Materials/V4.mat using Guid(c2d8aea817ff67d4292424d139872f20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7b8844fd0b8444f56718bb03fcbc9c3') in 0.048628 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000108 seconds.
+  path: Assets/01_AssetStore/DoorPackFree/Meshes/Door001/V1/Aferar_13 - Default_AO.png
+  artifactKey: Guid(c1eb8cf5ed7dc6c4eaefcfc343ad8755) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01_AssetStore/DoorPackFree/Meshes/Door001/V1/Aferar_13 - Default_AO.png using Guid(c1eb8cf5ed7dc6c4eaefcfc343ad8755) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4b62450dc1c05ab831896f0abd7a58b') in 0.015531 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/01_AssetStore/DoorPackFree/Meshes/Door001/V4/Aferar_13 - Default_Normal.png
+  artifactKey: Guid(25cf6ea2bfee626498726d049b807b00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01_AssetStore/DoorPackFree/Meshes/Door001/V4/Aferar_13 - Default_Normal.png using Guid(25cf6ea2bfee626498726d049b807b00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f89ec448ac3c2534fd15ea056d56c66c') in 0.025932 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000114 seconds.
+  path: Assets/TextMesh Pro/Sprites/EmojiOne.png
+  artifactKey: Guid(dffef66376be4fa480fb02b19edbe903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Sprites/EmojiOne.png using Guid(dffef66376be4fa480fb02b19edbe903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de93a32521ae47c17b1a1b5cf87b8d24') in 0.011006 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001205 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader
+  artifactKey: Guid(dd89cf5b9246416f84610a006f916af7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader using Guid(dd89cf5b9246416f84610a006f916af7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b8920ce6a7377884de9f5c7c57562ea') in 0.001975 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000120 seconds.
+  path: Assets/Plugins
+  artifactKey: Guid(94f693fca566044609fcbc02bc6df2bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins using Guid(94f693fca566044609fcbc02bc6df2bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1340b0dc5f1f1c939bcd793d699caa10') in 0.000961 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.013657 seconds.
+  path: Assets/01_AssetStore/DoorPackFree/Meshes/Door001/V4/Aferar_13 - Default_AlbedoTransparency.png
+  artifactKey: Guid(2bad03565f7a6864bb97ed2dc7d04dae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01_AssetStore/DoorPackFree/Meshes/Door001/V4/Aferar_13 - Default_AlbedoTransparency.png using Guid(2bad03565f7a6864bb97ed2dc7d04dae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb0e33ba2b824495b81d17cccfbee3d2') in 0.015912 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/ProBuilder Data
+  artifactKey: Guid(171ea6f658aa74e6381b1cda6564838a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ProBuilder Data using Guid(171ea6f658aa74e6381b1cda6564838a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'befe4009b47a3e4ba8165f82b9e6a4af') in 0.001211 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003224 seconds.
+  path: Assets/01_AssetStore/DoorPackFree/Meshes/Video intercom/Materials/V1.mat
+  artifactKey: Guid(7497d8d1425a79244bbf755d9b328dd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01_AssetStore/DoorPackFree/Meshes/Video intercom/Materials/V1.mat using Guid(7497d8d1425a79244bbf755d9b328dd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e5f5271a704c5920f0b872c5b5849c5') in 0.052444 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.021163 seconds.
+  path: Assets/01_AssetStore/DoorPackFree/Meshes/Video intercom/Textures/V2/Aferar_01 - Default_AlbedoTransparency.png
+  artifactKey: Guid(c2eace534e1967048bf8fdc65389e7d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01_AssetStore/DoorPackFree/Meshes/Video intercom/Textures/V2/Aferar_01 - Default_AlbedoTransparency.png using Guid(c2eace534e1967048bf8fdc65389e7d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98c3dc78cad5997a402472c5a8331d0f') in 0.018437 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004816 seconds.
+  path: Assets/Plugins/crosstales/3D Skybox/Swiss Freebies/Textures
+  artifactKey: Guid(ae15f24fc2b41724fbd556d22bde10f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/crosstales/3D Skybox/Swiss Freebies/Textures using Guid(ae15f24fc2b41724fbd556d22bde10f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec7bece124f4b6782dfaced0b0f632de') in 0.000914 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.010230 seconds.
+  path: Assets/01_AssetStore/DoorPackFree/Meshes/Door001/V6/Aferar_13 - Default_AlbedoTransparency.png
+  artifactKey: Guid(8cef63a95b416dc41bb52c34876cef8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01_AssetStore/DoorPackFree/Meshes/Door001/V6/Aferar_13 - Default_AlbedoTransparency.png using Guid(8cef63a95b416dc41bb52c34876cef8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cfd49ba95942d9049e571f500a68c1d') in 0.016078 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/modern office extras/mesh/wall small .003.prefab
+  artifactKey: Guid(53b27a046bfcdc44189c9d5879fd4e73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/modern office extras/mesh/wall small .003.prefab using Guid(53b27a046bfcdc44189c9d5879fd4e73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd258e330fbfb733702bc5eaade7f284a') in 0.013214 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002522 seconds.
+  path: Assets/01_AssetStore/DoorPackFree/Meshes/Door001/V2/Aferar_13 - Default_Normal.png
+  artifactKey: Guid(9b76e69cbc8af7f4c9964af354d53982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01_AssetStore/DoorPackFree/Meshes/Door001/V2/Aferar_13 - Default_Normal.png using Guid(9b76e69cbc8af7f4c9964af354d53982) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e0fffcb9a7ec209d5384794ecbf6473') in 0.023107 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003360 seconds.
+  path: Assets/01_AssetStore/DoorPackFree/Meshes/Video intercom/Textures/V2/Aferar_01 - Default_AO.png
+  artifactKey: Guid(188ef17cbc7cb864c8f826ab6b04129f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01_AssetStore/DoorPackFree/Meshes/Video intercom/Textures/V2/Aferar_01 - Default_AO.png using Guid(188ef17cbc7cb864c8f826ab6b04129f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10539f9b528d3575af02b3ccee7715b5') in 0.017433 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002370 seconds.
+  path: Assets/01_AssetStore/DoorPackFree/Meshes/Door001/V7/Aferar_13 - Default_AlbedoTransparency.png
+  artifactKey: Guid(5a6ce0321a333e445b92d1c0508bf246) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01_AssetStore/DoorPackFree/Meshes/Door001/V7/Aferar_13 - Default_AlbedoTransparency.png using Guid(5a6ce0321a333e445b92d1c0508bf246) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de6e3509981813a1dcee884787e3cfbb') in 0.016243 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001105 seconds.
+  path: Assets/modern office extras/texture/housePlantLeafs.png
+  artifactKey: Guid(0a0e243d0cb745a4fb26abd6958c90ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/modern office extras/texture/housePlantLeafs.png using Guid(0a0e243d0cb745a4fb26abd6958c90ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9520b97b894cbeb0e4a315dc836684d4') in 0.012767 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003023 seconds.
+  path: Assets/modern office extras/texture/MetalGalvanized.png
+  artifactKey: Guid(31fb80f1ad2e44347924195effaf263f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/modern office extras/texture/MetalGalvanized.png using Guid(31fb80f1ad2e44347924195effaf263f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7d46fc1772709699cc77ac6c8d7877a') in 0.013362 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/TextMesh Pro/Sprites/EmojiOne.json
+  artifactKey: Guid(8f05276190cf498a8153f6cbe761d4e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Sprites/EmojiOne.json using Guid(8f05276190cf498a8153f6cbe761d4e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '036dbd30c7d82b31d4c2f8acde9227e5') in 0.518997 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001156 seconds.
+  path: Assets/Prefabs/InfoScreen.prefab
+  artifactKey: Guid(7ee0e4e2acb1c487c93fa02eac05181d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/InfoScreen.prefab using Guid(7ee0e4e2acb1c487c93fa02eac05181d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0be43483bbf2418881e41784888c0a3a') in 0.058412 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007590 seconds.
+  path: Assets/01_AssetStore/DoorPackFree/Meshes/Video intercom/Materials/V2.mat
+  artifactKey: Guid(20c3ebf242586e74cb5d2e2deb379c31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01_AssetStore/DoorPackFree/Meshes/Video intercom/Materials/V2.mat using Guid(20c3ebf242586e74cb5d2e2deb379c31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d82abefda6a377f9b3fd981b17cdf36') in 0.050188 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000868 seconds.
+  path: Assets/01_AssetStore/DoorPackFree/Meshes/Door001/Materials
+  artifactKey: Guid(950e06bd76c41c146acf29dd9aae8f04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01_AssetStore/DoorPackFree/Meshes/Door001/Materials using Guid(950e06bd76c41c146acf29dd9aae8f04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f1ac2b4b1842fa5e29d27d12914257b') in 0.000891 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000100 seconds.
+  path: Assets/01_AssetStore/DoorPackFree/Meshes/Door001/V5/Aferar_13 - Default_Normal.png
+  artifactKey: Guid(96c6fb585e424844f9d5f2347f6c892e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01_AssetStore/DoorPackFree/Meshes/Door001/V5/Aferar_13 - Default_Normal.png using Guid(96c6fb585e424844f9d5f2347f6c892e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '676b7982e887bec6903060b9b110c09a') in 0.020500 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002505 seconds.
+  path: Assets/modern office extras/texture/grayCarpet.png
+  artifactKey: Guid(a00df77efc18442479891a7028c0b7de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/modern office extras/texture/grayCarpet.png using Guid(a00df77efc18442479891a7028c0b7de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'baecd2314a2ceb265f01d1b48cee3709') in 0.014877 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000119 seconds.
+  path: Assets/modern office extras/texture/Sucklents.png
+  artifactKey: Guid(51654fa8595d0334e8899df71f7a939b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/modern office extras/texture/Sucklents.png using Guid(51654fa8595d0334e8899df71f7a939b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84bdcfb6cc2ef30724466f3918650e96') in 0.012996 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001197 seconds.
+  path: Assets/01_AssetStore/DoorPackFree/Meshes/Door001/Materials/V1.mat
+  artifactKey: Guid(6ab145d3c4567994b8cdd5490fcde60f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01_AssetStore/DoorPackFree/Meshes/Door001/Materials/V1.mat using Guid(6ab145d3c4567994b8cdd5490fcde60f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fc237adc0ea6656daf7a4be95e912b9') in 0.040403 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002582 seconds.
+  path: Assets/TextMesh Pro/Documentation
+  artifactKey: Guid(8e7e8f5a82a3a134e91c54efd2274ea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Documentation using Guid(8e7e8f5a82a3a134e91c54efd2274ea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc497803c0650e980b81bcf651e18b86') in 0.000964 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000099 seconds.
+  path: Assets/01_AssetStore/DoorPackFree/Meshes/Door001/V7
+  artifactKey: Guid(0bd714c086536ec4fad6616c37ae42e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01_AssetStore/DoorPackFree/Meshes/Door001/V7 using Guid(0bd714c086536ec4fad6616c37ae42e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '336feebdbf182aaa82fc7ff439961fa5') in 0.001141 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Assets/01_AssetStore/DoorPackFree/Meshes/Door001/V1/Aferar_13 - Default_SpecularSmoothness.png
+  artifactKey: Guid(4f86f5849b7bb684ea823025aee879f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01_AssetStore/DoorPackFree/Meshes/Door001/V1/Aferar_13 - Default_SpecularSmoothness.png using Guid(4f86f5849b7bb684ea823025aee879f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2696cb49bb304c730992b644664f15be') in 0.023996 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004175 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader
+  artifactKey: Guid(bc1ede39bf3643ee8e493720e4259791) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader using Guid(bc1ede39bf3643ee8e493720e4259791) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02e46297b90299f77a9797379e6fb2c5') in 0.002311 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001924 seconds.
+  path: Assets/UnityTechnologies/SpaceRobotKyle/Models
+  artifactKey: Guid(78578abe586444a18a7f50cc65313a41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/SpaceRobotKyle/Models using Guid(78578abe586444a18a7f50cc65313a41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ca747d48843c2e09d459611139aab41') in 0.000889 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003940 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc
+  artifactKey: Guid(c334973cef89a9840b0b0c507e0377ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc using Guid(c334973cef89a9840b0b0c507e0377ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89ec19a9bb5cbf8bdad0e1633e175a9e') in 0.162379 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009377 seconds.
+  path: Assets/modern office extras/texture/PC.png
+  artifactKey: Guid(baaa3b6d8c957624fb6ef40fd65515ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/modern office extras/texture/PC.png using Guid(baaa3b6d8c957624fb6ef40fd65515ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26e661e1b5f3b221d8a49286f99fc974') in 0.012632 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001140 seconds.
+  path: Assets/modern office extras/texture/ModenFabricwhite.png
+  artifactKey: Guid(d3dbda35ebd33594fb574cccd1c1e399) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/modern office extras/texture/ModenFabricwhite.png using Guid(d3dbda35ebd33594fb574cccd1c1e399) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfd3f357741f1028ed39867a63871e22') in 0.017440 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/UnityTechnologies
+  artifactKey: Guid(f5d9ba6950ae3464d9ea945d527a7257) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies using Guid(f5d9ba6950ae3464d9ea945d527a7257) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e9ee7aa6a5c74f2759554a8b5b03a61') in 0.001200 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000982 seconds.
+  path: Assets/modern office extras/mesh/waiting room chair  light .prefab
+  artifactKey: Guid(9300919a98b03b944a5f95f9c68c3ccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/modern office extras/mesh/waiting room chair  light .prefab using Guid(9300919a98b03b944a5f95f9c68c3ccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ba08e51d8c65e9839043045ff4e05b8') in 0.016733 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.020455 seconds.
+  path: Assets/01_AssetStore/DoorPackFree/Meshes/Door001/V1/Aferar_13 - Default_Normal.png
+  artifactKey: Guid(bd2b1ecd87a65b34b8896ba687902cff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01_AssetStore/DoorPackFree/Meshes/Door001/V1/Aferar_13 - Default_Normal.png using Guid(bd2b1ecd87a65b34b8896ba687902cff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5173771dac8aa46e695153c364496a9') in 0.027790 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000110 seconds.
+  path: Assets/01_AssetStore/DoorPackFree/Meshes/Door001/V2/Aferar_13 - Default_AO.png
+  artifactKey: Guid(1091c73cfaecb1e41a7f2d66b5548365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01_AssetStore/DoorPackFree/Meshes/Door001/V2/Aferar_13 - Default_AO.png using Guid(1091c73cfaecb1e41a7f2d66b5548365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a789d552a63d6cee5b5b8ce397e6039') in 0.019996 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/TextMesh Pro/Resources/TMP Settings.asset
+  artifactKey: Guid(3f5b5dff67a942289a9defa416b206f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/TMP Settings.asset using Guid(3f5b5dff67a942289a9defa416b206f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d39d3b365ae06f4a5d582e5614ba55e') in 0.055950 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.010584 seconds.
+  path: Assets/TextMesh Pro/Documentation/TextMesh Pro User Guide 2016.pdf
+  artifactKey: Guid(1b8d251f9af63b746bf2f7ffe00ebb9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Documentation/TextMesh Pro User Guide 2016.pdf using Guid(1b8d251f9af63b746bf2f7ffe00ebb9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06d594f0f45c0070f56c2dd42a9bd84c') in 0.270443 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002081 seconds.
+  path: Assets/TextMesh Pro/Resources
+  artifactKey: Guid(243e06394e614e5d99fab26083b707fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources using Guid(243e06394e614e5d99fab26083b707fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73107d1020a62e3def86c468d2a05456') in 0.001002 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000115 seconds.
+  path: Assets/01_AssetStore/DoorPackFree/Meshes/Door001/V4/Aferar_13 - Default_AO.png
+  artifactKey: Guid(f46c2010e4a65de44aa05e7a78cec7b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01_AssetStore/DoorPackFree/Meshes/Door001/V4/Aferar_13 - Default_AO.png using Guid(f46c2010e4a65de44aa05e7a78cec7b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '896a70c74dcb30961989db6ec1afa9a0') in 0.015079 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.006384 seconds.
+  path: Assets/TextMesh Pro/Fonts/LiberationSans.ttf
+  artifactKey: Guid(e3265ab4bf004d28a9537516768c1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Fonts/LiberationSans.ttf using Guid(e3265ab4bf004d28a9537516768c1c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac5527babf88dcb6ff38db90a2359374') in 2.427874 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003780 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc
+  artifactKey: Guid(d930090c0cd643c7b55f19a38538c162) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc using Guid(d930090c0cd643c7b55f19a38538c162) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b707fb793fd60a56581099cf81a197e') in 0.002610 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/01_AssetStore/DoorPackFree/Meshes/Door001/V3/Aferar_13 - Default_AlbedoTransparency.png
+  artifactKey: Guid(d1121a1458949b341967a096552d4fc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01_AssetStore/DoorPackFree/Meshes/Door001/V3/Aferar_13 - Default_AlbedoTransparency.png using Guid(d1121a1458949b341967a096552d4fc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48b4a09a9bc2a5be21558ea73f82e7b8') in 0.015535 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000120 seconds.
+  path: Assets/TextMesh Pro/Shaders
+  artifactKey: Guid(e9f693669af91aa45ad615fc681ed29f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Shaders using Guid(e9f693669af91aa45ad615fc681ed29f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16852098a277b7ddedd49287b21bfbc7') in 0.000999 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000324 seconds.
+  path: Assets/01_AssetStore/DoorPackFree/Meshes/Door001/V2
+  artifactKey: Guid(efef82fd4a4ee134cb2609bd47625bf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01_AssetStore/DoorPackFree/Meshes/Door001/V2 using Guid(efef82fd4a4ee134cb2609bd47625bf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '459cdd4f1bf8eb501e087ae24a6d87c3') in 0.000941 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/modern office extras/texture/NewBooks.png
+  artifactKey: Guid(c6673469a0bca5e4a870a222fe683cda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/modern office extras/texture/NewBooks.png using Guid(c6673469a0bca5e4a870a222fe683cda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34b0a642ea96a344fef24c4894bef99a') in 0.011702 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001058 seconds.
+  path: Assets/modern office extras/texture
+  artifactKey: Guid(c2f0999ed463bd94387ce2c4b92317ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/modern office extras/texture using Guid(c2f0999ed463bd94387ce2c4b92317ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '808a378f722abd2b70b68501ac2fefc6') in 0.000941 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005184 seconds.
+  path: Assets/01_AssetStore/DoorPackFree/Meshes/Door001/V2/Aferar_13 - Default_AlbedoTransparency.png
+  artifactKey: Guid(056225c9a13957f47862151fdd5a4fc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01_AssetStore/DoorPackFree/Meshes/Door001/V2/Aferar_13 - Default_AlbedoTransparency.png using Guid(056225c9a13957f47862151fdd5a4fc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db41062cfae1e85a486b6a777f2d449e') in 0.020041 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Assets/01_AssetStore/DoorPackFree/Meshes/Video intercom/Textures/V1/Aferar_01 - Default_Normal.png
+  artifactKey: Guid(ad2bbb2667991d949a922f78a57aecde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01_AssetStore/DoorPackFree/Meshes/Video intercom/Textures/V1/Aferar_01 - Default_Normal.png using Guid(ad2bbb2667991d949a922f78a57aecde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bdb306dae0d176dd00b738c43de74fe') in 0.023149 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001146 seconds.
+  path: Assets/01_AssetStore/DoorPackFree/Meshes/Door001/Materials/V2.mat
+  artifactKey: Guid(8bf0befb68296734682237e45c19dba2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01_AssetStore/DoorPackFree/Meshes/Door001/Materials/V2.mat using Guid(8bf0befb68296734682237e45c19dba2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ef055a91b91e81fd8d8f225ffdbc5c3') in 0.036557 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000099 seconds.
+  path: Assets/01_AssetStore/DoorPackFree/Meshes/Video intercom/Textures/V2/Aferar_01 - Default_Normal.png
+  artifactKey: Guid(09e6479823478b7498ef88eac620c3bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01_AssetStore/DoorPackFree/Meshes/Video intercom/Textures/V2/Aferar_01 - Default_Normal.png using Guid(09e6479823478b7498ef88eac620c3bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '073a56c56b87e489e0581a98d8f10e09') in 0.018786 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000118 seconds.
+  path: Assets/modern office extras/mesh/Stapler.prefab
+  artifactKey: Guid(aeccee3b5b4d92b48b41e2e6b0934c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/modern office extras/mesh/Stapler.prefab using Guid(aeccee3b5b4d92b48b41e2e6b0934c75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bb5b469d26997b47600ec7dfab63734') in 0.012052 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.006916 seconds.
+  path: Assets/modern office extras/texture/old  Plywood.png
+  artifactKey: Guid(af919c46be4919d49879f220dea232db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/modern office extras/texture/old  Plywood.png using Guid(af919c46be4919d49879f220dea232db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2e7044fc9da59cf886dfd55a5f9e37d') in 0.011466 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001012 seconds.
+  path: Assets/modern office extras/texture/Gravel.png
+  artifactKey: Guid(e58eeb9a49151814a9c4a8dfb03f5c53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/modern office extras/texture/Gravel.png using Guid(e58eeb9a49151814a9c4a8dfb03f5c53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98c6fa02975bf4b6eea66f0c45502253') in 0.010796 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000109 seconds.
+  path: Assets/01_AssetStore/DoorPackFree/Meshes/Video intercom/Textures
+  artifactKey: Guid(c7e6bc552c1d0f94ea4ee08ac0edde12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01_AssetStore/DoorPackFree/Meshes/Video intercom/Textures using Guid(c7e6bc552c1d0f94ea4ee08ac0edde12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f59487343df4885a2126864360f0917') in 0.000935 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000801 seconds.
+  path: Assets/01_AssetStore/DoorPackFree/Meshes/Door001/V1
+  artifactKey: Guid(221e35fd4a6fd4048917e0b5cc1870df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01_AssetStore/DoorPackFree/Meshes/Door001/V1 using Guid(221e35fd4a6fd4048917e0b5cc1870df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9895d464c0e3c7fd62b1ea3bebe6c21f') in 0.000813 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007163 seconds.
+  path: Assets/modern office extras/texture/CementNew.png
+  artifactKey: Guid(0d3eb66c0d5e8174f9ef5bcfd3940a7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/modern office extras/texture/CementNew.png using Guid(0d3eb66c0d5e8174f9ef5bcfd3940a7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6133ab3c1db246ded4a75ce0708f8644') in 0.010357 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005170 seconds.
+  path: Assets/modern office extras/mesh/wall small .001.prefab
+  artifactKey: Guid(bfd7510afe52bfc4b89b4c1550706bca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/modern office extras/mesh/wall small .001.prefab using Guid(bfd7510afe52bfc4b89b4c1550706bca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cc802d97470864a7eeb0eebf5bda7ff') in 0.011793 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002210 seconds.
+  path: Assets/modern office extras/Materials
+  artifactKey: Guid(aa22658baeed816478a71cb47c6a73ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/modern office extras/Materials using Guid(aa22658baeed816478a71cb47c6a73ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '968937276de50373fc4e2c71c41f91c3') in 0.000718 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000102 seconds.
+  path: Assets/modern office extras/mesh/vace.prefab
+  artifactKey: Guid(c3f28ebd19fe5a646891f79cf34b429f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/modern office extras/mesh/vace.prefab using Guid(c3f28ebd19fe5a646891f79cf34b429f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61fc584d949911c92c41615e1ef4e663') in 0.011768 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001699 seconds.
+  path: Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt
+  artifactKey: Guid(381dcb09d5029d14897e55f98031fca5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt using Guid(381dcb09d5029d14897e55f98031fca5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f71b2d21205dc6ff6abedf9e764a644') in 0.002418 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/UnityTechnologies/SpaceRobotKyle/Materials/Robot_Color.mat
+  artifactKey: Guid(0aa851515cd3747d6b3b3e461199a2ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/SpaceRobotKyle/Materials/Robot_Color.mat using Guid(0aa851515cd3747d6b3b3e461199a2ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5983376860a34a101a6c0d950d12a8e7') in 0.740634 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.006655 seconds.
+  path: Assets/01_AssetStore
+  artifactKey: Guid(bafd8d166800b4f4e8d26965476a6692) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01_AssetStore using Guid(bafd8d166800b4f4e8d26965476a6692) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '293640eb9659455e384922555e9b6647') in 0.000868 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003034 seconds.
+  path: Assets/01_AssetStore/DoorPackFree/Meshes/Door001/V1/Aferar_13 - Default_AlbedoTransparency.png
+  artifactKey: Guid(ad1524073e0de5641bbe2930971f427b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01_AssetStore/DoorPackFree/Meshes/Door001/V1/Aferar_13 - Default_AlbedoTransparency.png using Guid(ad1524073e0de5641bbe2930971f427b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8c4e568d2f10c70c14a8b3bcccf74ed') in 0.015635 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001323 seconds.
+  path: Assets/UnityTechnologies/SpaceRobotKyle/Textures
+  artifactKey: Guid(5fbdd9980f1ec4d6094276098e518a31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/SpaceRobotKyle/Textures using Guid(5fbdd9980f1ec4d6094276098e518a31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9207e052277d6d46521e9de3f84c277') in 0.000780 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005907 seconds.
+  path: Assets/01_AssetStore/DoorPackFree/Meshes/Door001/V3
+  artifactKey: Guid(57030a198c0579942a660bec1b8f382e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01_AssetStore/DoorPackFree/Meshes/Door001/V3 using Guid(57030a198c0579942a660bec1b8f382e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cd776e407c28a8bc0685f6157a66aff') in 0.000896 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001660 seconds.
+  path: Assets/UnityTechnologies/SpaceRobotKyle/Models/Robot Kyle.fbx
+  artifactKey: Guid(320b1c2af77554f99a1658df4a6d3d5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/SpaceRobotKyle/Models/Robot Kyle.fbx using Guid(320b1c2af77554f99a1658df4a6d3d5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb4e7ea8bacb2360c4e7df311d61f6f1') in 0.192957 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002917 seconds.
+  path: Assets/modern office extras/mesh/vase .prefab
+  artifactKey: Guid(1d17ffcbecb5af741af7351ee14562ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/modern office extras/mesh/vase .prefab using Guid(1d17ffcbecb5af741af7351ee14562ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1d407a1e0c0938e8c748796e352a4f6') in 0.019092 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000643 seconds.
+  path: Assets/Material/RandomColor.mat
+  artifactKey: Guid(000b9050647744032b9965d02f2b8941) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material/RandomColor.mat using Guid(000b9050647744032b9965d02f2b8941) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5dabd283d90f5ec85b18f0a8a811be1') in 0.016090 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004017 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader
+  artifactKey: Guid(1e3b057af24249748ff873be7fafee47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader using Guid(1e3b057af24249748ff873be7fafee47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e976a241894a858ab3d7826d1c4042f9') in 0.002581 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader
+  artifactKey: Guid(a02a7d8c237544f1962732b55a9aebf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader using Guid(a02a7d8c237544f1962732b55a9aebf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d1705795af810071a3372180a3c99e1') in 0.002511 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004204 seconds.
+  path: Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt
+  artifactKey: Guid(d82c1b31c7e74239bff1220585707d2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt using Guid(d82c1b31c7e74239bff1220585707d2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b95b4c2a9b67a1b3b08a79aab403f964') in 0.002310 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000089 seconds.
+  path: Assets/modern office extras/mesh/wood wall end .prefab
+  artifactKey: Guid(e56e7cbefaec2d1478247f54e2f16926) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/modern office extras/mesh/wood wall end .prefab using Guid(e56e7cbefaec2d1478247f54e2f16926) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74c27fb6b5a5f691580268bf37541f57') in 0.012870 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001364 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader
+  artifactKey: Guid(14eb328de4b8eb245bb7cea29e4ac00b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader using Guid(14eb328de4b8eb245bb7cea29e4ac00b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de9160ffa3250dbb490b05e1864a3295') in 0.002152 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000119 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF.shader
+  artifactKey: Guid(68e6db2ebdc24f95958faec2be5558d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF.shader using Guid(68e6db2ebdc24f95958faec2be5558d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21b27ded376b5a7fb9f2cb37c14c5ff8') in 0.002013 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003133 seconds.
+  path: Assets/modern office extras/texture/felt.png
+  artifactKey: Guid(62e7dc7f141a9b24cba718e9f675d270) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/modern office extras/texture/felt.png using Guid(62e7dc7f141a9b24cba718e9f675d270) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62c86051601b561b2462ed1b8c2c6c16') in 0.012123 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002379 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader
+  artifactKey: Guid(fe393ace9b354375a9cb14cdbbc28be4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader using Guid(fe393ace9b354375a9cb14cdbbc28be4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdab7a6088adfe4b226e423bf5416a4c') in 0.002331 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000112 seconds.
+  path: Assets/modern office extras/mesh/waiting room chair  dark.prefab
+  artifactKey: Guid(67ce4e410bec9e14db4fa6980312642c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/modern office extras/mesh/waiting room chair  dark.prefab using Guid(67ce4e410bec9e14db4fa6980312642c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08911dd68349ce35d1c5b47e7c39b1a2') in 0.012618 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000679 seconds.
+  path: Assets/UnityTechnologies/SpaceRobotKyle/Prefabs/Robot Kyle.prefab
+  artifactKey: Guid(d079cd0e6137a44b58864c3a91ad119a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/SpaceRobotKyle/Prefabs/Robot Kyle.prefab using Guid(d079cd0e6137a44b58864c3a91ad119a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f22ed1933aad95f50b9ca63ef483df7') in 0.023234 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002557 seconds.
+  path: Assets/01_AssetStore/DoorPackFree/Meshes/Door001/Materials/13 - Default.mat
+  artifactKey: Guid(07a46803b4dac48feae305cfcebc8bde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01_AssetStore/DoorPackFree/Meshes/Door001/Materials/13 - Default.mat using Guid(07a46803b4dac48feae305cfcebc8bde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54ce9a66fa50408050fa9dacaf57e3b5') in 0.011541 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000116 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader
+  artifactKey: Guid(128e987d567d4e2c824d754223b3f3b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader using Guid(128e987d567d4e2c824d754223b3f3b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b4b4a6637908a90f651c41abf638485') in 0.001975 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000104 seconds.
+  path: Assets/01_AssetStore/DoorPackFree/Meshes/Video intercom
+  artifactKey: Guid(cc94c163cb687de4ab565258a073c652) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01_AssetStore/DoorPackFree/Meshes/Video intercom using Guid(cc94c163cb687de4ab565258a073c652) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f33384b73d8d5d64f619a236e1ac93ff') in 0.000887 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000103 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader
+  artifactKey: Guid(c8d12adcee749c344b8117cf7c7eb912) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader using Guid(c8d12adcee749c344b8117cf7c7eb912) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90bb08cc541e7cd3ec4c95a00cd6a92a') in 0.002084 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/UnityTechnologies/SpaceRobotKyle/Materials
+  artifactKey: Guid(39973b395d67e46bcb3ac2889cec975d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/SpaceRobotKyle/Materials using Guid(39973b395d67e46bcb3ac2889cec975d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8207c8c8bdc85663f87a4f8e692cc722') in 0.001151 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/01_AssetStore/DoorPackFree/Meshes/Door001/V5/Aferar_13 - Default_AlbedoTransparency.png
+  artifactKey: Guid(8b8d88670764c144cb3ad65162664a8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01_AssetStore/DoorPackFree/Meshes/Door001/V5/Aferar_13 - Default_AlbedoTransparency.png using Guid(8b8d88670764c144cb3ad65162664a8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '461a3b0278d7f24ea6bf44974500cce7') in 0.017691 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004087 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials
+  artifactKey: Guid(731f1baa9d144a9897cb1d341c2092b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials using Guid(731f1baa9d144a9897cb1d341c2092b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8a5343dd66316b9eb35bafbffda078a') in 0.000914 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/01_AssetStore/DoorPackFree/Meshes/Door001/V5/Aferar_13 - Default_SpecularSmoothness.png
+  artifactKey: Guid(80c1f5cf297fd0c4e847cc853c2e7706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01_AssetStore/DoorPackFree/Meshes/Door001/V5/Aferar_13 - Default_SpecularSmoothness.png using Guid(80c1f5cf297fd0c4e847cc853c2e7706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5453ca97ad87d64d2f4dca64eb86cd26') in 0.025167 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000102 seconds.
+  path: Assets/01_AssetStore/DoorPackFree/Meshes/Door001/V4
+  artifactKey: Guid(8dd43bc86cfaf9e4bb9aa4a9164c4d4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01_AssetStore/DoorPackFree/Meshes/Door001/V4 using Guid(8dd43bc86cfaf9e4bb9aa4a9164c4d4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ea0377fed71766bf193b49bf3940baa') in 0.000942 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000778 seconds.
+  path: Assets/modern office extras/mesh/wood wall .prefab
+  artifactKey: Guid(c23db0558c835db4e9781648ac713d58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/modern office extras/mesh/wood wall .prefab using Guid(c23db0558c835db4e9781648ac713d58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8f1aa1152e6133404f26b638adbf6f7') in 0.012501 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002348 seconds.
+  path: Assets/01_AssetStore/DoorPackFree/Meshes/Video intercom/Textures/V2
+  artifactKey: Guid(35ab6970fd4171c46b6b8ee261001da4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01_AssetStore/DoorPackFree/Meshes/Video intercom/Textures/V2 using Guid(35ab6970fd4171c46b6b8ee261001da4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '584957b7b204d9a889c02b0f063abe15') in 0.001040 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.006999 seconds.
+  path: Assets/01_AssetStore/DoorPackFree/Meshes/Door001/V3/Aferar_13 - Default_AO.png
+  artifactKey: Guid(0c7b377794b944e49a654d8f410de1fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01_AssetStore/DoorPackFree/Meshes/Door001/V3/Aferar_13 - Default_AO.png using Guid(0c7b377794b944e49a654d8f410de1fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35edf1bb3e551197975b994ceb9283aa') in 0.017180 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002591 seconds.
+  path: Assets/01_AssetStore/DoorPackFree/Meshes/Door001/V7/Aferar_13 - Default_Normal.png
+  artifactKey: Guid(030c4c619d224ab438e38b06e20193c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01_AssetStore/DoorPackFree/Meshes/Door001/V7/Aferar_13 - Default_Normal.png using Guid(030c4c619d224ab438e38b06e20193c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '048ff2aea3228b44a80d305d4267f027') in 0.023151 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003062 seconds.
+  path: Assets/modern office extras/texture/art warm .png
+  artifactKey: Guid(c895930766088c24b92f5366fd24b421) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/modern office extras/texture/art warm .png using Guid(c895930766088c24b92f5366fd24b421) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed1b1e1a070b46419bebe6ed83d4df43') in 0.011383 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000112 seconds.
+  path: Assets/modern office extras/texture/WoodFlooryellow.png
+  artifactKey: Guid(c58566440233fcc458c7b1173708ed2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/modern office extras/texture/WoodFlooryellow.png using Guid(c58566440233fcc458c7b1173708ed2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ea10924befc6520a32fdf6ce8f95bc1') in 0.014385 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000106 seconds.
+  path: Assets/modern office extras/texture/terracotta.png
+  artifactKey: Guid(03d06105769a8ed4c92d080b0d20dd72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/modern office extras/texture/terracotta.png using Guid(03d06105769a8ed4c92d080b0d20dd72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9704e27d858f4d1ad58b798611a438ea') in 0.014243 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000095 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader
+  artifactKey: Guid(85187c2149c549c5b33f0cdb02836b17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader using Guid(85187c2149c549c5b33f0cdb02836b17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5436a9cb36ff11e88bb37392631f508b') in 0.002666 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005469 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc
+  artifactKey: Guid(3997e2241185407d80309a82f9148466) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc using Guid(3997e2241185407d80309a82f9148466) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7506c69260bf7c1cdf33a8f62db534a1') in 0.005382 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000114 seconds.
+  path: Assets/01_AssetStore/DoorPackFree/Meshes/Door001/V5/Aferar_13 - Default_AO.png
+  artifactKey: Guid(bd22af204859c274e950d2a4e5ef4dfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01_AssetStore/DoorPackFree/Meshes/Door001/V5/Aferar_13 - Default_AO.png using Guid(bd22af204859c274e950d2a4e5ef4dfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61ed323beb54aa35df36d755f6135209') in 0.014350 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000105 seconds.
+  path: Assets/modern office extras/texture/Plywood.png
+  artifactKey: Guid(28894dfbe2139374db3f0bb27fd344ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/modern office extras/texture/Plywood.png using Guid(28894dfbe2139374db3f0bb27fd344ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c2b5cee6434a30730a3a1996b17da03') in 0.010649 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002663 seconds.
+  path: Assets/01_AssetStore/DoorPackFree/Meshes/Door001/V7/Aferar_13 - Default_SpecularSmoothness.png
+  artifactKey: Guid(ed800070650b895418e86461fd5abc40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01_AssetStore/DoorPackFree/Meshes/Door001/V7/Aferar_13 - Default_SpecularSmoothness.png using Guid(ed800070650b895418e86461fd5abc40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d5822e9e713ad15fc54a9a47aca5a02') in 0.021284 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004148 seconds.
+  path: Assets/modern office extras/mesh/sofa.001.prefab
+  artifactKey: Guid(a71666f1a45b3e54daced1c067c25b06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/modern office extras/mesh/sofa.001.prefab using Guid(a71666f1a45b3e54daced1c067c25b06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfa59a227d4d599f469d99a2e681b763') in 0.014715 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMPro.cginc
+  artifactKey: Guid(407bc68d299748449bbf7f48ee690f8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Shaders/TMPro.cginc using Guid(407bc68d299748449bbf7f48ee690f8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9166bc1abaeb281fc6783cc3fe76c458') in 0.002666 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Assets/modern office extras/texture/glassBlue.png
+  artifactKey: Guid(130dad71edfc4294c9326c840181f0a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/modern office extras/texture/glassBlue.png using Guid(130dad71edfc4294c9326c840181f0a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f87d687bc629091b750c61b8d0bbfad3') in 0.013105 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001358 seconds.
+  path: Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt
+  artifactKey: Guid(6e59c59b81ab47f9b6ec5781fa725d2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt using Guid(6e59c59b81ab47f9b6ec5781fa725d2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35ecb2fa8dd83b4749a13d0b14c984c2') in 0.002949 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000136 seconds.
+  path: Assets/modern office extras
+  artifactKey: Guid(0e75e3ee234434454834b2b3a8598ec6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/modern office extras using Guid(0e75e3ee234434454834b2b3a8598ec6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff45e7a81a4d8694d6589972c02b5c33') in 0.001103 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Assets/TextMesh Pro/Resources/Style Sheets
+  artifactKey: Guid(4aecb92fff08436c8303b10eab8da368) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Style Sheets using Guid(4aecb92fff08436c8303b10eab8da368) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe342ddaeddc525a77e6f203ceeefc6a') in 0.001102 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Assets/01_AssetStore/DoorPackFree/Meshes/Door001/V2/Aferar_13 - Default_SpecularSmoothness.png
+  artifactKey: Guid(a703548941a513a4b9d01a9b3640fd4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01_AssetStore/DoorPackFree/Meshes/Door001/V2/Aferar_13 - Default_SpecularSmoothness.png using Guid(a703548941a513a4b9d01a9b3640fd4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c25cc426d22cb81bcc1919e41b896e1') in 0.024283 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003316 seconds.
+  path: Assets/01_AssetStore/DoorPackFree/Meshes/Door001/V3/Aferar_13 - Default_SpecularSmoothness.png
+  artifactKey: Guid(f36e85f9557552f43a217816965c8fda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01_AssetStore/DoorPackFree/Meshes/Door001/V3/Aferar_13 - Default_SpecularSmoothness.png using Guid(f36e85f9557552f43a217816965c8fda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86f2992b1b0fd2d704468c7548eff969') in 0.022084 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002483 seconds.
+  path: Assets/01_AssetStore/DoorPackFree/Meshes/Door001
+  artifactKey: Guid(a7864a75bae0b2a4d9ab6db73266bb73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01_AssetStore/DoorPackFree/Meshes/Door001 using Guid(a7864a75bae0b2a4d9ab6db73266bb73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be45571f912ccd22b6cd1bda9a936f37') in 0.000907 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000113 seconds.
+  path: Assets/01_AssetStore/DoorPackFree/Meshes/Door001/Materials/V3.mat
+  artifactKey: Guid(1c826cebdd68dc546b6889791583ec7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01_AssetStore/DoorPackFree/Meshes/Door001/Materials/V3.mat using Guid(1c826cebdd68dc546b6889791583ec7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a1459e063e9b3872eaecf4587bfe602') in 0.048059 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004853 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader
+  artifactKey: Guid(f7ada0af4f174f0694ca6a487b8f543d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader using Guid(f7ada0af4f174f0694ca6a487b8f543d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ae22e7dd24806604faeced91d7aef8b') in 0.002164 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009972 seconds.
+  path: Assets/01_AssetStore/DoorPackFree/Meshes/Door001/V6/Aferar_13 - Default_AO.png
+  artifactKey: Guid(0ffb81b0528c7604ab017e61045f45f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01_AssetStore/DoorPackFree/Meshes/Door001/V6/Aferar_13 - Default_AO.png using Guid(0ffb81b0528c7604ab017e61045f45f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '557e56264d9b84a88413032c5ba954a7') in 0.014079 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002497 seconds.
+  path: Assets/01_AssetStore/DoorPackFree/Meshes/Door001/V3/Aferar_13 - Default_Normal.png
+  artifactKey: Guid(7150f51fa092a5a44a2714c16a5c407d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01_AssetStore/DoorPackFree/Meshes/Door001/V3/Aferar_13 - Default_Normal.png using Guid(7150f51fa092a5a44a2714c16a5c407d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6554d6b56b3b3bf3ecc268bcdbb6d793') in 0.019013 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000808 seconds.
+  path: Assets/01_AssetStore/DoorPackFree/Meshes/Door001/V4/Aferar_13 - Default_SpecularSmoothness.png
+  artifactKey: Guid(bf6a199938892ba48adc1e257c1f6c40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01_AssetStore/DoorPackFree/Meshes/Door001/V4/Aferar_13 - Default_SpecularSmoothness.png using Guid(bf6a199938892ba48adc1e257c1f6c40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '905563b383a9f23a1b5eb556a5d16ce6') in 0.020552 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000120 seconds.
+  path: Assets/TextMesh Pro/Sprites
+  artifactKey: Guid(d0603b6d5186471b96c778c3949c7ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Sprites using Guid(d0603b6d5186471b96c778c3949c7ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b27a52c99a9f8f9ac4f70e63a6bb6f32') in 0.000834 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003502 seconds.
+  path: Assets/01_AssetStore/DoorPackFree/Meshes/Video intercom/Materials/01 - Default.mat
+  artifactKey: Guid(8eb36e83435664c40a8a223c844c62c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01_AssetStore/DoorPackFree/Meshes/Video intercom/Materials/01 - Default.mat using Guid(8eb36e83435664c40a8a223c844c62c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '476039b9c173c8b33eba66ef3da6569e') in 0.010731 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000106 seconds.
+  path: Assets/01_AssetStore/DoorPackFree/Meshes/Door001/V7/Aferar_13 - Default_AO.png
+  artifactKey: Guid(49c6e799cd62caa4e9a3c482f5b1c996) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01_AssetStore/DoorPackFree/Meshes/Door001/V7/Aferar_13 - Default_AO.png using Guid(49c6e799cd62caa4e9a3c482f5b1c996) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fc7f0aff3129c08bd57b84aa2ef8508') in 0.014031 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000111 seconds.
+  path: Assets/01_AssetStore/DoorPackFree/Meshes/Door001/V6/Aferar_13 - Default_Normal.png
+  artifactKey: Guid(1ea63be4bbf2e2d4a83451053a7fd5dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01_AssetStore/DoorPackFree/Meshes/Door001/V6/Aferar_13 - Default_Normal.png using Guid(1ea63be4bbf2e2d4a83451053a7fd5dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a35b3973c12e91738a05cac5398e4f8') in 0.022625 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.006757 seconds.
+  path: Assets/01_AssetStore/DoorPackFree/Meshes/Video intercom/Textures/V1/Aferar_01 - Default_AO.png
+  artifactKey: Guid(7ee583edf3c5c8f4cbe8ec132bb8730c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/01_AssetStore/DoorPackFree/Meshes/Video intercom/Textures/V1/Aferar_01 - Default_AO.png using Guid(7ee583edf3c5c8f4cbe8ec132bb8730c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80a67aeceb631136e24f8858b9d2daad') in 0.015729 seconds 
